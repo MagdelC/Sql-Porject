@@ -1,0 +1,34 @@
+2018-03-02 16:00:41,209 [main] (CxConsoleLauncher.java:63) INFO  - CxConsole version 8.60.0
+2018-03-02 16:00:41,212 [main] (CxConsoleLauncher.java:64) INFO  - CxConsole scan session started
+2018-03-02 16:00:41,213 [main] (CxConsoleLauncher.java:65) INFO  - 
+2018-03-02 16:00:41,218 [main] (CxConsoleLauncher.java:68) FATAL - Missing command name. Available commands: SCAN, ASYNC_SCAN, OSA_SCAN, ASYNC_OSA_SCAN, GENERATE_TOKEN, REVOKE_TOKEN
+2018-03-02 16:00:41,218 [main] (CxConsoleLauncher.java:49) ERROR - Failure - General error occurred - error code 1
+2018-03-02 16:00:47,358 [main] (CxConsoleLauncher.java:63) INFO  - CxConsole version 8.60.0
+2018-03-02 16:00:47,360 [main] (CxConsoleLauncher.java:64) INFO  - CxConsole scan session started
+2018-03-02 16:00:47,360 [main] (CxConsoleLauncher.java:65) INFO  - 
+2018-03-02 16:00:47,365 [main] (CxConsoleLauncher.java:68) FATAL - Missing command name. Available commands: SCAN, ASYNC_SCAN, OSA_SCAN, ASYNC_OSA_SCAN, GENERATE_TOKEN, REVOKE_TOKEN
+2018-03-02 16:00:47,366 [main] (CxConsoleLauncher.java:49) ERROR - Failure - General error occurred - error code 1
+2018-03-05 08:43:45,899 [main] (CxConsoleLauncher.java:63) INFO  - CxConsole version 8.60.0
+2018-03-05 08:43:45,911 [main] (CxConsoleLauncher.java:64) INFO  - CxConsole scan session started
+2018-03-05 08:43:45,911 [main] (CxConsoleLauncher.java:65) INFO  - 
+2018-03-05 08:43:45,917 [main] (CxConsoleLauncher.java:68) FATAL - Missing command name. Available commands: SCAN, ASYNC_SCAN, OSA_SCAN, ASYNC_OSA_SCAN, GENERATE_TOKEN, REVOKE_TOKEN
+2018-03-05 08:43:45,918 [main] (CxConsoleLauncher.java:49) ERROR - Failure - General error occurred - error code 1
+2018-03-05 08:45:14,982 [main] (CxConsoleLauncher.java:63) INFO  - CxConsole version 8.60.0
+2018-03-05 08:45:14,984 [main] (CxConsoleLauncher.java:64) INFO  - CxConsole scan session started
+2018-03-05 08:45:14,984 [main] (CxConsoleLauncher.java:65) INFO  - 
+2018-03-05 08:45:14,989 [main] (CxConsoleLauncher.java:68) FATAL - Missing command name. Available commands: SCAN, ASYNC_SCAN, OSA_SCAN, ASYNC_OSA_SCAN, GENERATE_TOKEN, REVOKE_TOKEN
+2018-03-05 08:45:14,990 [main] (CxConsoleLauncher.java:49) ERROR - Failure - General error occurred - error code 1
+2018-03-05 08:45:50,445 [main] (CxConsoleLauncher.java:63) INFO  - CxConsole version 8.60.0
+2018-03-05 08:45:50,452 [main] (CxConsoleLauncher.java:64) INFO  - CxConsole scan session started
+2018-03-05 08:45:50,453 [main] (CxConsoleLauncher.java:65) INFO  - 
+2018-03-05 08:45:50,484 [main] (ConfigMgr.java:81) INFO  - Default configuration file location: C:\Users\MagdelCilliers\Documents\CheckMarx\Training\config\cx_console.properties
+2018-03-05 08:45:51,877 [main] (CxConsoleLauncher.java:97) FATAL - Command /? was not found. Available commands are:
+SCAN, ASYNC_SCAN, OSA_SCAN, ASYNC_OSA_SCAN, GENERATE_TOKEN, REVOKE_TOKEN
+2018-03-05 08:45:51,878 [main] (CxConsoleLauncher.java:49) ERROR - Failure - General error occurred - error code 1
+2018-03-05 08:46:04,917 [main] (CxConsoleLauncher.java:63) INFO  - CxConsole version 8.60.0
+2018-03-05 08:46:04,919 [main] (CxConsoleLauncher.java:64) INFO  - CxConsole scan session started
+2018-03-05 08:46:04,920 [main] (CxConsoleLauncher.java:65) INFO  - 
+2018-03-05 08:46:04,924 [main] (ConfigMgr.java:81) INFO  - Default configuration file location: C:\Users\MagdelCilliers\Documents\CheckMarx\Training\config\cx_console.properties
+2018-03-05 08:46:05,433 [main] (CxConsoleLauncher.java:97) FATAL - Command HELP was not found. Available commands are:
+SCAN, ASYNC_SCAN, OSA_SCAN, ASYNC_OSA_SCAN, GENERATE_TOKEN, REVOKE_TOKEN
+2018-03-05 08:46:05,434 [main] (CxConsoleLauncher.java:49) ERROR - Failure - General error occurred - error code 1

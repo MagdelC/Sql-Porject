@@ -19,6 +19,8 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -53,6 +55,69 @@
     <Reference Include="System.Web.Mobile" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CX\CxConsolePlugin-CLI-8.60.0.jar" />
+    <Content Include="CX\lib\ant-1.10.1.jar" />
+    <Content Include="CX\lib\ant-launcher-1.10.1.jar" />
+    <Content Include="CX\lib\asm-5.2.jar" />
+    <Content Include="CX\lib\commons-cli-1.4.jar" />
+    <Content Include="CX\lib\commons-codec-1.10.jar" />
+    <Content Include="CX\lib\commons-collections-3.2.2.jar" />
+    <Content Include="CX\lib\commons-compress-1.15.jar" />
+    <Content Include="CX\lib\commons-io-2.5.jar" />
+    <Content Include="CX\lib\commons-lang3-3.7.jar" />
+    <Content Include="CX\lib\commons-logging-1.2.jar" />
+    <Content Include="CX\lib\commons-logging-api-1.1.jar" />
+    <Content Include="CX\lib\commons-vfs2-2.0.jar" />
+    <Content Include="CX\lib\cxf-core-3.2.1.jar" />
+    <Content Include="CX\lib\cxf-rt-bindings-soap-3.2.1.jar" />
+    <Content Include="CX\lib\cxf-rt-bindings-xml-3.2.1.jar" />
+    <Content Include="CX\lib\cxf-rt-databinding-jaxb-3.2.1.jar" />
+    <Content Include="CX\lib\cxf-rt-frontend-jaxws-3.2.1.jar" />
+    <Content Include="CX\lib\cxf-rt-frontend-simple-3.2.1.jar" />
+    <Content Include="CX\lib\cxf-rt-transports-http-3.2.1.jar" />
+    <Content Include="CX\lib\cxf-rt-transports-http-jetty-3.2.1.jar" />
+    <Content Include="CX\lib\cxf-rt-ws-addr-3.2.1.jar" />
+    <Content Include="CX\lib\cxf-rt-ws-policy-3.2.1.jar" />
+    <Content Include="CX\lib\cxf-rt-wsdl-3.2.1.jar" />
+    <Content Include="CX\lib\httpclient-4.5.4.jar" />
+    <Content Include="CX\lib\httpcore-4.4.7.jar" />
+    <Content Include="CX\lib\httpmime-4.5.4.jar" />
+    <Content Include="CX\lib\jackson-annotations-2.9.0.jar" />
+    <Content Include="CX\lib\jackson-core-2.9.3.jar" />
+    <Content Include="CX\lib\jackson-databind-2.9.3.jar" />
+    <Content Include="CX\lib\javax.servlet-api-3.1.0.jar" />
+    <Content Include="CX\lib\javax.ws.rs-api-2.1.jar" />
+    <Content Include="CX\lib\jdom-2.0.2.jar" />
+    <Content Include="CX\lib\jetty-continuation-9.4.6.v20170531.jar" />
+    <Content Include="CX\lib\jetty-http-9.4.6.v20170531.jar" />
+    <Content Include="CX\lib\jetty-io-9.4.6.v20170531.jar" />
+    <Content Include="CX\lib\jetty-security-9.4.6.v20170531.jar" />
+    <Content Include="CX\lib\jetty-server-9.4.6.v20170531.jar" />
+    <Content Include="CX\lib\jetty-util-9.4.6.v20170531.jar" />
+    <Content Include="CX\lib\junrar-0.7.jar" />
+    <Content Include="CX\lib\log4j-1.2.17.jar" />
+    <Content Include="CX\lib\log4j-api-2.10.0.jar" />
+    <Content Include="CX\lib\log4j-core-2.10.0.jar" />
+    <Content Include="CX\lib\maven-scm-api-1.4.jar" />
+    <Content Include="CX\lib\maven-scm-provider-svn-commons-1.4.jar" />
+    <Content Include="CX\lib\maven-scm-provider-svnexe-1.4.jar" />
+    <Content Include="CX\lib\neethi-3.1.0.jar" />
+    <Content Include="CX\lib\objenesis-2.6.jar" />
+    <Content Include="CX\lib\plexus-archiver-3.5.jar" />
+    <Content Include="CX\lib\plexus-io-3.0.0.jar" />
+    <Content Include="CX\lib\plexus-utils-3.0.24.jar" />
+    <Content Include="CX\lib\regexp-1.3.jar" />
+    <Content Include="CX\lib\slf4j-api-1.7.25.jar" />
+    <Content Include="CX\lib\snappy-0.4.jar" />
+    <Content Include="CX\lib\stax2-api-3.1.4.jar" />
+    <Content Include="CX\lib\woodstox-core-5.0.3.jar" />
+    <Content Include="CX\lib\wsdl4j-1.6.3.jar" />
+    <Content Include="CX\lib\xml-resolver-1.2.jar" />
+    <Content Include="CX\lib\xmlschema-core-2.2.2.jar" />
+    <Content Include="CX\lib\xz-1.6.jar" />
+    <Content Include="CX\lib\zip4j-1.3.2.jar" />
+    <Content Include="CX\lib\zipper-1.2.2.jar" />
+    <Content Include="CX\log4j.properties" />
     <Content Include="Default.aspx" />
     <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
@@ -73,6 +138,11 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CX\config\cx_console.properties" />
+    <Content Include="CX\config\krb5.conf" />
+    <Content Include="CX\logs\cx_console.log" />
+    <Content Include="CX\runCxConsole.cmd" />
+    <Content Include="CX\runCxConsole.sh" />
     <None Include="Properties\PublishProfiles\local web.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

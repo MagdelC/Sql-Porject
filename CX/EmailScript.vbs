@@ -4,7 +4,7 @@ emailObj.To       = "magdel.cilliers@performanta.com"
 emailObj.Subject  = "Scan results Test 4"
 emailObj.TextBody = "Please see attached"
 
-emailObj.AddAttachment "C:\projects\sql-project\CX\Test4.pdf"
+
 
 Set emailConfig = emailObj.Configuration
 

@@ -1,5 +1,5 @@
 Set emailObj      = CreateObject("CDO.Message")
-emailObj.From     = "automatedscan@test.com"
+emailObj.From     = "magzTheDev@gmail.com"
 emailObj.To       = "magdel.cilliers@performanta.com"
 emailObj.Subject  = "Scan results Test 4"
 emailObj.TextBody = "Please see attached"

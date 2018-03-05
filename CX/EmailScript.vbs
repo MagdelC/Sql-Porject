@@ -12,7 +12,7 @@ emailConfig.Fields("http://schemas.microsoft.com/cdo/configuration/smtpserver") 
 emailConfig.Fields("http://schemas.microsoft.com/cdo/configuration/smtpserverport") = 587
 emailConfig.Fields("http://schemas.microsoft.com/cdo/configuration/sendusing")    = 2  
 emailConfig.Fields("http://schemas.microsoft.com/cdo/configuration/smtpauthenticate") = 1  
-emailConfig.Fields("http://schemas.microsoft.com/cdo/configuration/smtpusessl")      = true 
+emailConfig.Fields("http://schemas.microsoft.com/cdo/configuration/smtpusessl")      = false 
 emailConfig.Fields("http://schemas.microsoft.com/cdo/configuration/sendusername")    = "magzTheDev@gmail.com"
 emailConfig.Fields("http://schemas.microsoft.com/cdo/configuration/sendpassword")    = "Verysecurepass"
 emailConfig.Fields.Update
